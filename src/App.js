@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css";
 //import the row, file dir
-import Row from "./Row"; // this should pull in the compo we created
+import Row from "./Row";
 import requests from "./requests";
+import Banner from "./Banner";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Hey christian lets test that is running netflix clone locally. </h1>
+    <div className="app">
+      {/* nav */}
+      <Banner />
+
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
