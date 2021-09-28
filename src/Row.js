@@ -1,4 +1,4 @@
-// We type this template constantly because we are often building components.
+// rfce for template
 import React, { useState, useEffect } from "react";
 import axios from "./axios";
 import "./Row.css";
