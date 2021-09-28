@@ -5,8 +5,10 @@
 https://netflix-clone-b3c03.web.app/
 
 
+#### Request your own  API's
 
-
+TMDB API: https://www.themoviedb.org/settings/api:  
+NPM React-youtube API: https://www.npmjs.com/package/react-youtube
 
 
 Getting Started with Create React App
